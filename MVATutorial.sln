@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileIteration", "WhileIter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{3B86FAE9-37F1-436A-A67B-E2DAAADFE5A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateNTime", "DateNTime\DateNTime.csproj", "{C8B5980C-9DA6-4C14-AB68-CAE50F2A4923}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,5 +69,9 @@ Global
 		{3B86FAE9-37F1-436A-A67B-E2DAAADFE5A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B86FAE9-37F1-436A-A67B-E2DAAADFE5A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B86FAE9-37F1-436A-A67B-E2DAAADFE5A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8B5980C-9DA6-4C14-AB68-CAE50F2A4923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B5980C-9DA6-4C14-AB68-CAE50F2A4923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B5980C-9DA6-4C14-AB68-CAE50F2A4923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B5980C-9DA6-4C14-AB68-CAE50F2A4923}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
