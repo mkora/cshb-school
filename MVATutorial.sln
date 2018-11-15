@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateNTime", "DateNTime\DateNTime.csproj", "{C8B5980C-9DA6-4C14-AB68-CAE50F2A4923}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleClasses", "SimpleClasses\SimpleClasses.csproj", "{3A7C98DA-DF78-49DC-ABCC-AC471287C284}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,5 +75,9 @@ Global
 		{C8B5980C-9DA6-4C14-AB68-CAE50F2A4923}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8B5980C-9DA6-4C14-AB68-CAE50F2A4923}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8B5980C-9DA6-4C14-AB68-CAE50F2A4923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7C98DA-DF78-49DC-ABCC-AC471287C284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7C98DA-DF78-49DC-ABCC-AC471287C284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7C98DA-DF78-49DC-ABCC-AC471287C284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7C98DA-DF78-49DC-ABCC-AC471287C284}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
