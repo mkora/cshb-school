@@ -17,7 +17,7 @@ namespace SimpleClasses
             decimal value = DetemineMarketValue(myCar);
             Console.WriteLine("{0:C}", value);
 
-            Console.WriteLine(myCar.DetemineMarketValue());
+            Console.WriteLine("{0:C}", myCar.DetemineMarketValue());
         }
 
         private static decimal DetemineMarketValue(Car car) {
