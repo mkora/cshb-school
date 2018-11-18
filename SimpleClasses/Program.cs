@@ -18,6 +18,8 @@ namespace SimpleClasses
             Console.WriteLine("{0:C}", value);
 
             Console.WriteLine("{0:C}", myCar.DetemineMarketValue());
+
+            Console.ReadLine();
         }
 
         private static decimal DetemineMarketValue(Car car) {

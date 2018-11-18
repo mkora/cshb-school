@@ -35,6 +35,8 @@ namespace Decisions
 
             string message2 = (userValue2 == "1") ? "a car" : "a cat";
             Console.WriteLine("You entered {0}, therefore you won {1}.", userValue2, message2); // NOTE: replacement codes
+
+            Console.ReadLine();
         }
     }
 }

@@ -27,6 +27,8 @@ namespace HelperMethods
             DisplayResults(ReverseString(firstName) + " "
                 + ReverseString(lastName) + " "
                 + ReverseString(city));
+
+            Console.ReadLine();
         }
 
         private static string ReverseString(string message) 

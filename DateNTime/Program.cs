@@ -36,6 +36,7 @@ namespace DateNTime
             TimeSpan age = DateTime.Now.Subtract(other1);
             Console.WriteLine(age.TotalDays);
 
+            Console.ReadLine();
         }
     }
 }

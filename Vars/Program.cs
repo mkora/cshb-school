@@ -68,6 +68,8 @@ namespace Vars
             string myLastName = Console.ReadLine();
 
             Console.WriteLine("Hello, " + myFirstName + " " + myLastName);
+
+            Console.ReadLine();
         }
     }
 }

@@ -54,7 +54,7 @@ namespace Arrays
             {
                 Console.Write(ch);
             }
-
+            Console.ReadLine();
         }
     }
 }

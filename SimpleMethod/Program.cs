@@ -6,7 +6,9 @@ namespace SimpleMethod
     {
         static void Main(string[] args)
         {
-            HelloWorld(); // interesting...
+            HelloWorld(); // interesting... no this.<method>, it's optional
+
+            Console.ReadLine();
         }
 
         private static void HelloWorld()

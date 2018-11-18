@@ -58,6 +58,8 @@ namespace OperatorsExpressionsStatements
 
             // Member accessor operator and Method invocation operator
             Console.WriteLine("Hi");
+
+            Console.ReadLine();
         }
     }
 }

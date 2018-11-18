@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Strings
 {
@@ -71,12 +72,14 @@ namespace Strings
             Console.WriteLine(str);
 
             // Alturnative way is to use StringBuilder
-            //StringBuilder strBuilder = new StringBuilder();
-            //for (int i = 0; i < 10; i++)
-            //{
-            //    strBuilder.Append("--");
-            //    strBuilder.Append(i.ToString())); // Concat
-            //}
+            StringBuilder strBuilder = new StringBuilder();
+            for (int i = 0; i < 10; i++)
+            {
+                strBuilder.Append("--");
+                strBuilder.Append(i.ToString()); // Concat
+            }
+
+            Console.ReadLine();
         }
     }
 }

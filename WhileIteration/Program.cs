@@ -12,6 +12,7 @@ namespace WhileIteration
             {
                 displayMenu = MainMenu();
             }
+
         }
 
         private static bool MainMenu()
@@ -36,6 +37,9 @@ namespace WhileIteration
 
         private static void PrintNumbers()
         {
+            /**
+             * TODO Limit the input number 
+             */
             Console.Clear();
             Console.WriteLine("Print numbers");
             Console.Write("Type a number: ");

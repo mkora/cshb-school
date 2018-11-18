@@ -37,6 +37,8 @@ namespace ObjectLifetime
             // Static methods vs instance methods
             Car.MyMethod();
             // You can create static class and all its method become static too!
+
+            Console.ReadLine();
         }
     }
 
