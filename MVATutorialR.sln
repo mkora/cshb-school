@@ -31,11 +31,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhileIteration", "WhileIter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnderstandingScope", "UnderstandingScope\UnderstandingScope.csproj", "{F6B01A4F-647E-42B1-A5FE-414CD665ED71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemliesNNamespaces", "AssemliesNNamespaces\AssemliesNNamespaces.csproj", "{C6211457-2881-4C2A-817A-97C192CE2A9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssemliesNNamespaces", "AssemliesNNamespaces\AssemliesNNamespaces.csproj", "{C6211457-2881-4C2A-817A-97C192CE2A9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClassLibrary", "MyClassLibrary\MyClassLibrary.csproj", "{687B9322-C469-4F70-8F78-35927DD45A46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyClassLibrary", "MyClassLibrary\MyClassLibrary.csproj", "{687B9322-C469-4F70-8F78-35927DD45A46}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{46EB3BD2-534C-47C3-963D-598D98E2136A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{83DFAB5D-4E4B-46AF-8E13-89D5B239D743}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{46EB3BD2-534C-47C3-963D-598D98E2136A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46EB3BD2-534C-47C3-963D-598D98E2136A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46EB3BD2-534C-47C3-963D-598D98E2136A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83DFAB5D-4E4B-46AF-8E13-89D5B239D743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83DFAB5D-4E4B-46AF-8E13-89D5B239D743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83DFAB5D-4E4B-46AF-8E13-89D5B239D743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83DFAB5D-4E4B-46AF-8E13-89D5B239D743}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
