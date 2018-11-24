@@ -21,13 +21,26 @@ namespace Collections
              *  Class                       Description
              *  
              *  ArrayList                   Represents an array of objects whose size is dynamically increased as required.
-             *  Hashtable                   Represents a collection of key/value pairs that are organized based on the hash code of the key.
+             *  
+             *  Hashtable                   Represents a collection of key/value pairs that are organized 
+             *                              based on the hash code of the key.
              *  Queue                       Represents a first in, first out (FIFO) collection of objects.
+             *  
              *  Stack                       Represents a last in, first out (LIFO) collection of objects.
              *  
              *  2. System.Collections.Generic Classes
              *  
+             *  Class                       Description
              *  
+             *  Dictionary<TKey,TValue>     Represents a collection of key/value pairs that are organized based on the key.
+             *  
+             *  List<T>                     Represents a list of objects that can be accessed by index. 
+             *                              Provides methods to search, sort, and modify lists.
+             *  Queue<T>                    Represents a first in, first out (FIFO) collection of objects.
+             *  
+             *  SortedList<TKey,TValue>     Represents a collection of key/value pairs that are sorted by key 
+             *                              based on the associated IComparer<T> implementation.
+             *  Stack<T>                    Represents a last in, first out (LIFO) collection of objects.
              *  
              *  3. System.Collections.Concurrent Classes
              *  
