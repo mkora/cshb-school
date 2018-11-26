@@ -24,6 +24,9 @@ namespace LINQ
              * Introduction to LINQ:
              * https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq
              * 
+             * 101 LINQ Samples:
+             * https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b
+             * 
              */
 
             List<Car> myCars = new List<Car>() {
@@ -42,14 +45,73 @@ namespace LINQ
             {
                 Console.WriteLine("{0} {1}", car.VIN, car.Model);
             }
+            Console.Write("\n");
+
+            // sorting
+            var orderedCars1 = from car in myCars
+                              orderby car.Year descending
+                              select car;
+            foreach (var car in orderedCars1)
+            {
+                Console.WriteLine("{0} {1} {2}", car.Year, car.VIN, car.Model);
+            }
+            Console.Write("\n");
+
+            var bmws3 = from car in myCars
+                        where car.Make == "BMW" && car.Year == 2010
+                        select new { car.VIN, car.Model}; // projection (to a new anonymous data type)
+            foreach (var car in bmws3)
+            {
+                Console.WriteLine("{0} {1}", car.VIN, car.Model);
+            }
+            Console.Write("\n");
+
 
             // LINQ Method Syntax
             var bmws2 = myCars.Where(p => p.Make == "BMW" && p.Year == 2010);
-
             foreach (var car in bmws2)
             {
                 Console.WriteLine("{0} {1}", car.VIN, car.Model);
             }
+            Console.Write("\n");
+
+            // sorting
+            var orderedCars2 = myCars.OrderByDescending(p => p.Year);
+            foreach (var car in orderedCars2)
+            {
+                Console.WriteLine("{0} {1} {2}", car.Year, car.VIN, car.Model);
+            }
+            Console.Write("\n");
+
+            // one item
+            var firstCar1 = myCars.First(p => p.Make == "BMW");
+            Console.WriteLine("{0} {1} {2}", firstCar1.Year, firstCar1.VIN, firstCar1.Model);
+            Console.Write("\n");
+
+            var firstCar2 = myCars.OrderByDescending(p => p.Year).First(p => p.Make == "BMW");
+            Console.WriteLine("{0} {1} {2}", firstCar2.Year, firstCar2.VIN, firstCar2.Model);
+            Console.Write("\n");
+
+            // conditions: eq. is it true that ...
+            Console.WriteLine(myCars.TrueForAll(p => p.Year > 2007));
+            Console.Write("\n");
+            Console.WriteLine(myCars.Exists(p => p.Model == "745li"));
+            Console.Write("\n");
+
+            // FOREACH loop
+            myCars.ForEach(p => p.StickerPrice -= 3000);
+            myCars.ForEach(p => Console.WriteLine("{0} {1:C}", p.VIN, p.StickerPrice));
+            Console.Write("\n");
+
+            // aggregator functions
+            Console.WriteLine(myCars.Sum(p => p.StickerPrice));
+            Console.Write("\n");
+
+            // Standard method of all Objects
+            Console.WriteLine(myCars.GetType());
+            Console.WriteLine(orderedCars1.GetType()); // that's why we use VAR
+            Console.WriteLine(firstCar1.GetType());
+            Console.Write("\n");
 
             Console.ReadKey();
         }
