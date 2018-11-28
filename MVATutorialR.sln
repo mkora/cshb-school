@@ -51,6 +51,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionsTakeTwo", "Except
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{57E802BC-A120-476A-B4C9-5AFAA3EA178D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{0FA27FD2-90D8-4BFE-A5F2-6DA0BF717E83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes.Test", "Classes.Test\Classes.Test.csproj", "{F3B6949D-1409-4A64-A001-E9A91546458D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +157,14 @@ Global
 		{57E802BC-A120-476A-B4C9-5AFAA3EA178D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57E802BC-A120-476A-B4C9-5AFAA3EA178D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57E802BC-A120-476A-B4C9-5AFAA3EA178D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FA27FD2-90D8-4BFE-A5F2-6DA0BF717E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA27FD2-90D8-4BFE-A5F2-6DA0BF717E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA27FD2-90D8-4BFE-A5F2-6DA0BF717E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA27FD2-90D8-4BFE-A5F2-6DA0BF717E83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B6949D-1409-4A64-A001-E9A91546458D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B6949D-1409-4A64-A001-E9A91546458D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B6949D-1409-4A64-A001-E9A91546458D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B6949D-1409-4A64-A001-E9A91546458D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
