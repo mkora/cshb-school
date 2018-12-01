@@ -1,62 +1,56 @@
-### C# School
+###C# School
 
-#### Tools
+####Tools
 
-- MVA Tutorial: [Watch](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169)
+- MVA Tutorial: [C# Fundamentals for Absolute Beginners](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169)
 
-- VS: [Download](https://visualstudio.microsoft.com/vs/)
+- IDE: [Visual Studio](https://visualstudio.microsoft.com/vs/)
 
-#### Overview
+####Overview
 
-- Creating Your First C# Program
+- [Creating Your First C# Program](MVATutorial/Program.cs)
 
 - Understanding Your First C# Program
 
 - Working with Code Files, Projects, and Solutions
 
-- Understanding Data Types and Variables
+- [Understanding Data Types and Variables](Vars/Program.cs)
 
-- The if Decision Statement
+- [The if Decision Statement](Decisions/Program.cs)
 
-- Operators, Expressions, and Statements
+- [Operators, Expressions, and Statements](OperatorsExpressionsStatements/Program.cs)
 
-- for Iteration Statement
+- [for Iteration Statement](ForIteration/Program.cs)
 
-- Understanding Arrays
+- [Understanding Arrays](Arrays/Program.cs)
 
-- Defining and Calling Methods
+- Defining and Calling Methods: [Simple Method](SimpleMethod/Program.cs) and [Helper Method](HelperMethods/Program.cs)
 
-- While Iteration Statement
+- [While Iteration Statement](WhileIteration/Program.cs)
 
-- Working with Strings
+- [Working with Strings](Strings/Program.cs)
 
-- Working with Dates and Times
+- [Working with Dates and Times](DateNTime/Program.cs)
 
-- Understanding Classes
+- [Understanding Classes](SimpleClasses/Program.cs)
 
-- More About Classes and Methods
+- [More About Classes and Methods](MyClassLibrary/Program.cs)
 
-- Understanding Scope and Accessibility Modifiers
+- [Understanding Scope and Accessibility Modifiers](UnderstandingScope/Program.cs)
 
-- Understanding Namespaces and Working with the .NET Class Library
+- [Understanding Namespaces and Working with the .NET Class Library](AssemliesNNamespaces/Program.cs)
 
-- Creating and Adding References to Assemblies
+- [Creating and Adding References to Assemblies](ObjectLifetime/Program.cs)
 
-- Working with Collections
+- [Working with Collections](Collections/Program.cs)
 
-- Working with LINQ
+- [Working with LINQ](LINQ/Program.cs)
 
-- Enumerations and the Switch Decision Statement
+- [Enumerations and the Switch Decision Statement](EnumsNSwitch/Program.cs)
 
-- Gracefully Handling Exceptions
+- [Gracefully Handling Exceptions](ExceptionsTakeTwo/Program.cs)
 
-- Understanding Events and Event-Driven Programming
-
-- [Handling and Thwrowing Exceptions](Exceptions/Program.cs)
-
-- Unit Testing
-
-- Following a Good Code Practices [Maintainable code, Testable code]
+- [Understanding Events and Event-Driven Programming](Events/Program.cs)
 
 [Source: MVA](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=JUpuxzQIC_5506218949#overview)
 
@@ -80,4 +74,4 @@ Common Type System - https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csha
 
 Nuget - The package manager for .NET: https://www.nuget.org/
 
-Linq - .NET Language-Integrated Query: https://msdn.microsoft.com/en-us/library/bb308959.aspx
+LINQ - .NET Language-Integrated Query: https://msdn.microsoft.com/en-us/library/bb308959.aspx and Introduction to LINQ https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq
