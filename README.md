@@ -1,12 +1,12 @@
-###C# School
+## C# School
 
-####Tools
+### Tools
 
 - MVA Tutorial: [C# Fundamentals for Absolute Beginners](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169)
 
 - IDE: [Visual Studio](https://visualstudio.microsoft.com/vs/)
 
-####Overview
+### Overview
 
 - [Creating Your First C# Program](MVATutorial/Program.cs)
 
@@ -54,7 +54,7 @@
 
 [Source: MVA](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=JUpuxzQIC_5506218949#overview)
 
-#### Glossary for Beginners
+### Glossary for Beginners
 
 .NET Framework - Combination of components, technologies & guidlines for utilizing while creating Windows apps
 
