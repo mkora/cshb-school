@@ -75,3 +75,17 @@ Common Type System - https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csha
 Nuget - The package manager for .NET: https://www.nuget.org/
 
 LINQ - .NET Language-Integrated Query: https://msdn.microsoft.com/en-us/library/bb308959.aspx and Introduction to LINQ https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq
+
+WPF - Windows Presentation Foundation
+
+GDI+ - Windows Graphics Device Interface
+
+DPI - Device Independent Pixel 
+
+Dpi - Dots per inch
+
+XAML - Extensible Application Markup Language
+
+XBAP - XAML browser application
+
+SSMS - Sql Server Management Studio
