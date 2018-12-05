@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AOOPPart2
+namespace OOPPart2
 {
     public class FunWithMaths
     {

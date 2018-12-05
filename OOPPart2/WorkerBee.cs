@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abstracts
+namespace OOPPart2
 {
     public class WorkerBee : Employee // <-- inherits from abstract class
     {

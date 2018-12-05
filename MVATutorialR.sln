@@ -55,13 +55,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes.Test", "Classes.Test\Classes.Test.csproj", "{F3B6949D-1409-4A64-A001-E9A91546458D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPPart1", "OOPPart1\OOPPart1.csproj", "{FA1E1772-7FBF-4CA2-9C2E-C7787771FE9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPPart1.1", "OOPPart1\OOPPart1.1.csproj", "{FA1E1772-7FBF-4CA2-9C2E-C7787771FE9F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPPPart1.Test", "OPPPart1.Test\OPPPart1.Test.csproj", "{80115F15-B423-4AF6-B9DB-582BE687CCFE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPPPart2.Test", "OPPPart2.Test\OPPPart2.Test.csproj", "{5A94CD91-2FDA-4D4E-A7DC-CD6FBDAF7A7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPPart2", "ConsoleApp1\OOPPart2.csproj", "{8F42FD79-B11F-40B6-A1AC-1AE1C9F758E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPPart1.2", "OOPPart2\OOPPart1.2.csproj", "{C67EA546-3D5D-43D1-8493-7F90ED92609F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +189,10 @@ Global
 		{8F42FD79-B11F-40B6-A1AC-1AE1C9F758E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F42FD79-B11F-40B6-A1AC-1AE1C9F758E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F42FD79-B11F-40B6-A1AC-1AE1C9F758E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C67EA546-3D5D-43D1-8493-7F90ED92609F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67EA546-3D5D-43D1-8493-7F90ED92609F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67EA546-3D5D-43D1-8493-7F90ED92609F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67EA546-3D5D-43D1-8493-7F90ED92609F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
