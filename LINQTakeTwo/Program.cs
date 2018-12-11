@@ -124,6 +124,15 @@ namespace Linq
             return data.OfType<int>().ToList();
         }
 
+        /**
+         * 
+         *
+         */
+        public static List<User> SortUsersByAge(List<User> data)
+        {
+            return data.OrderBy(x => x.Age).ToList();
+        }
+
 
         /**
          * Ultra LINQ
@@ -159,5 +168,13 @@ namespace Linq
         }
     }
 
+    public class User
+    {
+        public string FirstName;
+
+        public string LastName;
+
+        public int Age;
+    }
 
 }

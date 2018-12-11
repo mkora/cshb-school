@@ -231,5 +231,25 @@ namespace Linq.Tests
             CollectionAssert.AreEqual(expectedOutput, output);
         }
 
+        [TestMethod]
+        public void TestSortUsersByAge()
+        { 
+            var input = new List<User>()
+            {
+                new User() { FirstName = "Name 1", LastName = "Last 1", Age = 11 },
+                new User() { FirstName = "Name 2", LastName = "Last 2", Age = 12 },
+                new User() { FirstName = "Name 3", LastName = "Last 3", Age = 10 },
+            };
+            var expectedOutput = new List<User>()
+            {
+                new User() { FirstName = "Name 3", LastName = "Last 3", Age = 10 },
+                new User() { FirstName = "Name 1", LastName = "Last 1", Age = 11 },
+                new User() { FirstName = "Name 2", LastName = "Last 2", Age = 12 },
+            }; ;
+            List<User> output = Program.SortUsersByAge(input);
+
+            CollectionAssert.AreEqual(expectedOutput, output);
+        }
+
     }
 }
