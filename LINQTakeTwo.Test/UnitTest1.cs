@@ -233,23 +233,96 @@ namespace Linq.Tests
 
         [TestMethod]
         public void TestSortUsersByAge()
-        { 
-            var input = new List<User>()
-            {
-                new User() { FirstName = "Name 1", LastName = "Last 1", Age = 11 },
-                new User() { FirstName = "Name 2", LastName = "Last 2", Age = 12 },
-                new User() { FirstName = "Name 3", LastName = "Last 3", Age = 10 },
-            };
-            var expectedOutput = new List<User>()
-            {
-                new User() { FirstName = "Name 3", LastName = "Last 3", Age = 10 },
-                new User() { FirstName = "Name 1", LastName = "Last 1", Age = 11 },
-                new User() { FirstName = "Name 2", LastName = "Last 2", Age = 12 },
-            }; ;
+        {
+            var user1 = new User() { FirstName = "Name 1", LastName = "Last 1", Age = 11 };
+            var user2 = new User() { FirstName = "Name 2", LastName = "Last 2", Age = 12 };
+            var user3 = new User() { FirstName = "Name 3", LastName = "Last 3", Age = 10 };
+
+            var input = new List<User>() { user1, user2, user3 };
+            var expectedOutput = new List<User>() { user3, user1, user2 };
             List<User> output = Program.SortUsersByAge(input);
 
             CollectionAssert.AreEqual(expectedOutput, output);
         }
 
+        [TestMethod]
+        public void TestSortUsersBySameAge()
+        {
+            var user1 = new User() { FirstName = "Name 1", LastName = "Last 1", Age = 11 };
+            var user2 = new User() { FirstName = "Name 2", LastName = "Last B", Age = 12 };
+            var user3 = new User() { FirstName = "Name 3", LastName = "Last 3", Age = 10 };
+            var user4 = new User() { FirstName = "Name 4", LastName = "Last A", Age = 12 };
+
+            var input = new List<User>() { user1, user2, user3, user4 };
+            var expectedOutput = new List<User>() { user3, user1, user4, user2 };
+            List<User> output = Program.SortUsersByAge(input);
+
+            CollectionAssert.AreEqual(expectedOutput, output);
+        }
+
+        [TestMethod]
+        public void TestDoubleReverse()
+        {
+            var input = new List<string>() { "abc", "ddef", "bcde", "c", "1000", "de", "efg" };
+            var expectedOutput = new string[] { "gfe", "ed", "0001", "c", "edcb", "fedd", "cba"};
+            string[] output = Program.DoubleReverse(input);
+
+            CollectionAssert.AreEqual(expectedOutput, output);
+        }
+
+        [TestMethod]
+        public void TestSum()
+        {
+            var input = new List<int> { 1, 2, 3, 4, 5 };
+
+            var expectedOutput = 15;
+            int output = Program.Sum(input);
+
+            Assert.AreEqual(expectedOutput, output);
+        }
+
+        [TestMethod]
+        public void TestAverage()
+        {
+            var input = new List<string> { "abc", "ddef", "bcde", "c", "1000", "de", "efg" };
+
+            double expectedOutput = 3;
+            double output = Program.Average(input);
+
+            Assert.AreEqual(expectedOutput, output);
+        }
+
+        [TestMethod]
+        public void TestTakeSkip()
+        {
+            var input = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
+
+            var expectedOutput = new List<int> { 4, 5, 6 };
+            List<int> output = Program.TakeSkip(input, 6, 3);
+
+            CollectionAssert.AreEqual(expectedOutput, output);
+        }
+
+        [TestMethod]
+        public void TestTakeSkipZero()
+        {
+            var input = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
+
+            var expectedOutput = new List<int> { 1, 2 };
+            List<int> output = Program.TakeSkip(input, 2);
+
+            CollectionAssert.AreEqual(expectedOutput, output);
+        }
+
+        [TestMethod]
+        public void TestTakeZeroSkip()
+        {
+            var input = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
+
+            var expectedOutput = new List<int> { };
+            List<int> output = Program.TakeSkip(input);
+
+            CollectionAssert.AreEqual(expectedOutput, output);
+        }
     }
 }

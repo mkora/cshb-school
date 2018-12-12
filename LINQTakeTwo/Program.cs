@@ -125,14 +125,54 @@ namespace Linq
         }
 
         /**
-         * 
+         * OrderBy() / OrderByDescending() / ThenBy()
          *
          */
         public static List<User> SortUsersByAge(List<User> data)
         {
-            return data.OrderBy(x => x.Age).ToList();
+            return data.OrderBy(x => x.Age).ThenBy(x => x.LastName).ToList();
         }
 
+        /**
+         * Reverse
+         * 
+         */
+        public static string[] DoubleReverse(List<string> data)
+        {
+            return data.Select(x => {
+                var arr = x.ToCharArray();
+                Array.Reverse(arr);
+                return string.Concat(arr);
+            }).Reverse().ToArray();
+        }
+
+
+        /**
+         * Sum
+         * 
+         */
+        public static int Sum(List<int> data)
+        {
+            return data.Sum();
+        }
+
+        /**
+         * Average
+         * 
+         */
+        public static double Average(List<string> data)
+        {
+            return data.Average(x => x.Length);
+        }
+
+        /**
+         * Take / Skip
+         * 
+         */
+        public static List<int> TakeSkip(List<int> data, int take = 0, int skip = 0)
+        {
+            return data.Take(take).Skip(skip).ToList();
+        }
 
         /**
          * Ultra LINQ
