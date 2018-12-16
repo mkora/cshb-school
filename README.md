@@ -44,7 +44,7 @@
 
 - [Working with Collections](Collections/Program.cs)
 
-- [Working with LINQ](LINQ/Program.cs)
+- [Working with LINQ](LINQTakeTwo/Program.cs)
 
 - [Enumerations and the Switch Decision Statement](EnumsNSwitch/Program.cs)
 
